@@ -11,7 +11,7 @@ class EmailParser
   end
   # i will be parsing emails next =
   def parse
-    array = emails.gsub(",", "").split(" ").uniq
+    array = emails.gsub(",", " ").split(" ").uniq
   end
 end
 #binding.pry
